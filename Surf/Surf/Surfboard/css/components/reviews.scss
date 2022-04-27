@@ -1,10 +1,7 @@
-.reviews {
-
-}
-
 .reviews__display {
     background: #F8FAF9;
     padding: 42px 42px 42px;
+    margin-bottom: 15px;
 }
 
 .reviews__display-inner {
@@ -24,4 +21,33 @@
 
 .reviews__content {
     flex: 1;
+    margin-left: 40px;
+}
+
+.reviews__title {
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 14px;
+    color: #292929;
+}
+
+.reviews__text {
+    margin-bottom: 25px;
+}
+
+.reviews__author {
+    font-size: 18px;
+    font-weight: bold;
+    color: #292929;
+}
+
+.reviews__switcher {
+    display: flex;
+    justify-content: center;
+}
+
+.reviews__text {
+    line-height: 1.1
+    ;
 }
