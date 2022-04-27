@@ -10,6 +10,8 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     position: relative;
+    color: #292929;
+
 }
 
 .wrapper {
@@ -34,6 +36,7 @@ h4,
 h5,
 h6 {
     margin-top: 0;
+    margin-bottom: 0;
     font-weight: normal;
 }
 
