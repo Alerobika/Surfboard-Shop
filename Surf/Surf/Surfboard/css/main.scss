@@ -5,6 +5,10 @@ $baseFontSize: 18px;
 $blue: #1968B1;
 $darkGreen: #0b4d3c;
 
+//z-indexes
+
+$z-fixed-menu: 100;
+
 //normalize
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 
@@ -26,3 +30,5 @@ $darkGreen: #0b4d3c;
 @import "components/interactive-avatar";
 @import "components/order-section";
 @import "components/form";
+@import "components/radio";
+@import "components/fixed-menu";

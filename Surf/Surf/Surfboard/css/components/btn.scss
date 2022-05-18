@@ -5,14 +5,26 @@
     text-transform: uppercase;
     border-radius: 100px;
     line-height: 1;
+    background: #FEDB3F;
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
 
-    &--theme--yellow {
-        background: #FEDB3F;
-        color: #000000;
-    }
 
     &:hover {
         color: #FEDB3F;
         background: #000000;
+    }
+
+    &--theme--transparent {
+        background: transparent;
+        color: #fff;
+        text-transform: none;
+
+        &:hover {
+            background: transparent;
+            color: #000000;
+        }
     }
 }

@@ -4,9 +4,48 @@
 
 .form__col {
     flex: 1;
-    margin-right: 20px;
+    margin-right: 17px;
     
     &:last-child {
         margin-right: 0;
     }
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 36px;
+}
+
+.form__block {
+    flex: 1;
+    margin-right: 17px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.form__input {
+    width: 100%;
+    padding: 18px 11px;
+    border-radius: 4px;
+    // border: 3px solid #FEDB3F;
+    border: 3px solid transparent;
+
+    &--textarea {
+        height:152px;
+        resize: none;
+    }
+
+    &:focus {
+        border-color: #FEDB3F;
+        outline: none;
+    }
+}
+
+.form__controls {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    margin-bottom: 43px;
 }
